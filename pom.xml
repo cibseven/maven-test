@@ -18,8 +18,8 @@
   
   <distributionManagement>
     <repository>
-      <id>cibseven</id>
-      <name>CIB seven Apache Maven Packages</name>
+      <id>github</id>
+      <name>GitHub CIB seven Apache Maven Packages</name>
       <url>https://maven.pkg.github.com/cibseven/maven-test</url>
     </repository>
   </distributionManagement>

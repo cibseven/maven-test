@@ -1,1 +1,5 @@
 .mvn/*
+pom.xml.releaseBackup
+release.properties
+target/
+
