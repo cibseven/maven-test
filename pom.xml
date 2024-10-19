@@ -15,7 +15,15 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>17</maven.compiler.release>
   </properties>
-
+  
+  <distributionManagement>
+    <repository>
+      <id>cibseven</id>
+      <name>CIB seven Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/cibseven/maven-test</url>
+    </repository>
+  </distributionManagement>
+  
   <dependencyManagement>
     <dependencies>
       <dependency>
