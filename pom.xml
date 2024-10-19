@@ -48,7 +48,7 @@
   </dependencies>
   
   <scm>
-    <developerConnection>scm:git:https://github.com/cibseven/maven-test.git</developerConnection>
+    <developerConnection>scm:git@github.com:cibseven/maven-test.git</developerConnection>
     <tag>1.0</tag>
   </scm>
   
