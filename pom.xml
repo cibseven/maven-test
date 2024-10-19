@@ -4,7 +4,7 @@
 
   <groupId>de.cib.seven</groupId>
   <artifactId>maven-test</artifactId>
-  <version>1.0</version>
+  <version>1.0-SNAPSHOT</version>
 
   <name>maven-test</name>
   <url>http://www.cibseven.com</url>
