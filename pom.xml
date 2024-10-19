@@ -15,7 +15,15 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>17</maven.compiler.release>
   </properties>
-
+  
+  <distributionManagement>
+    <repository>
+      <id>cibseven</id>
+      <name>CIB seven Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/cibseven/maven-test</url>
+    </repository>
+  </distributionManagement>
+  
   <dependencyManagement>
     <dependencies>
       <dependency>
@@ -41,8 +49,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
+  
+  <scm>
+    <developerConnection>scm:git:https://github.com/cibseven/maven-test.git</developerConnection>
+  </scm>
+  
   <build>
+  
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
@@ -86,5 +99,13 @@
         </plugin>
       </plugins>
     </pluginManagement>
+    
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>3.1.1</version>
+      </plugin>
+    </plugins>
   </build>
 </project>
