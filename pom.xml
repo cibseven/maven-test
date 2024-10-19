@@ -46,11 +46,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  
+
   <scm>
-    <developerConnection>scm:git@github.com:cibseven/maven-test.git</developerConnection>
-    <tag>1.0</tag>
-  </scm>
+    <connection>scm:git:git@github.com:cibseven/maven-test.git</connection>
+    <developerConnection>scm:git:git@github.com:cibseven/maven-test.git</developerConnection>
+    <url>https://github.com/cibseven/maven-test</url>
+    <tag>HEAD</tag>
+  </scm>  
   
   <build>
   
